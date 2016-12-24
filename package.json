@@ -1,0 +1,34 @@
+{
+  "name": "gulp-stud",
+  "version": "1.0.0",
+  "description": "Gulp plugin for stud(A simple templating engine for JavaScript) ",
+  "main": "index.js",
+  "scripts": {
+     "test": "mocha  ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveesamson/gulp-stud.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "gulp-stud",
+    "stud"
+  ],
+  "author": "Steve S. Samson <stevee.samson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveesamson/gulp-stud/issues"
+  },
+  "homepage": "https://github.com/steveesamson/gulp-stud#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "stud": "^1.0.8",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
