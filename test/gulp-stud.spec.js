@@ -12,7 +12,7 @@ describe('gulp-stud', function() {
       // create the fake file
       var fakeFile = new File({
 
-        path:"/test.html",/*This is necessary; it forms the name of registration*/
+        path:"test.html",/*This is necessary; it forms the name of registration*/
 
         contents: new Buffer("<p>Summary: I am {name}, age {age} and lives at {address}. Thanks.</p>")
 

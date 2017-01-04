@@ -1,3 +1,36 @@
-<div>
-    some good good text.
+<div class='slick-form-title-bar'>
+    <span class='form-title'>
+        <span class='title-text'>Login</span>
+    </span>
 </div>
+<fieldset class='slick-form-fields'>
+    <span class="legend"><em class="icon-lock"></em>Change Login Password</span>
+
+    <div class="input-group password">
+                <div class="slick_inplace_text slick-input">
+                    <span>Password</span>
+                    <input type="password" name="password" id="password" class="password" autocomplete="off" data-validation='required'/>
+                    <i class="icon-lock"></i>
+                </div>
+            </div>
+    <div class="input-group new_password">
+        <div class="slick_inplace_text slick-input">
+            <span>New Password</span>
+            <input type="password" name="new_password" id="new_password" class="new_password" data-validation='required|min-length:6'/>
+            <i class="icon-lock"></i>
+        </div>
+    </div>
+
+    <div class="input-group retype_new_password">
+        <div class="slick_inplace_text slick-input">
+            <span>Retype New Password</span>
+            <input type="password" name="retype_new_password" id="retype_new_password" class="retype_new_password" data-validation='required|min-length:6'/>
+            <i class="icon-lock"></i>
+        </div>
+    </div>
+</fieldset>
+<fieldset class='slick-form-submit'>
+   <button type='submit' id='primary' name='save'  class='change_button'><i class='icon-check'></i>Change</button>
+   <button type='button' id='secondary'  name='cancel' class='cancel_button'><i class='icon-blocked'></i>Cancel</button>
+   <button type='reset'   id='tertiary'  name='reset' class='reset_button'><i class='icon-cycle'></i>Reset</button>
+</fieldset>

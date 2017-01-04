@@ -1,15 +1,15 @@
 let through = require('through2'),
 gutil = require('gulp-util'),
 PluginError = gutil.PluginError,
+path = require('path'),
 stud = require('stud');
 
 // Consts
 const PLUGIN_NAME = 'gulp-stud';
 
 module.exports = function() {
-  //Cache the working directory
-  const CWD = process.cwd();
 
+  
   //Task runner
   let compileStud = function(file, encoding, callback) {
 
@@ -31,11 +31,11 @@ module.exports = function() {
 
     }
 
+
     var data = file.contents.toString("utf8"),
 
         //Compute this file's location to apply proper name
-        compiledFileName = file.path.replace(CWD, "").substring(1),
-        compiledFileName = compiledFileName.substring(compiledFileName.indexOf('/') + 1);
+        compiledFileName = file.path.replace(file.base, "");
 
     //Carryout the compilation    
     stud.compile(data, compiledFileName, function (output) {

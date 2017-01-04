@@ -4,7 +4,7 @@
   "description": "Gulp plugin for stud(A simple templating engine for JavaScript) ",
   "main": "index.js",
   "scripts": {
-     "test": "mocha  ./test"
+    "test": "mocha  ./test"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/steveesamson/gulp-stud#readme",
   "dependencies": {
-    "gulp-util": "^3.0.7",
-    "stud": "^1.0.8",
-    "through2": "^2.0.3"
+    "gulp-util": "~3.0.7",
+    "stud": "~1.0.9",
+    "through2": "~2.0.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
