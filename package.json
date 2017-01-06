@@ -24,7 +24,7 @@
   "homepage": "https://github.com/steveesamson/gulp-stud#readme",
   "dependencies": {
     "gulp-util": "~3.0.7",
-    "stud": "~1.0.9",
+    "stud": "^1.1.0",
     "through2": "~2.0.3"
   },
   "devDependencies": {
