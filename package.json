@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/steveesamson/gulp-stud#readme",
   "dependencies": {
-    "gulp-util": "~3.0.7",
+    "gulp-util": "^3.0.7",
     "stud": "^1.1.0",
-    "through2": "~2.0.3"
+    "through2": "^2.0.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
